@@ -1,0 +1,88 @@
+# ============================================
+# Dependencies
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# ============================================
+# Build outputs
+# ============================================
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# ============================================
+# Environment variables
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# ============================================
+# IDE & Editor
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# Uploads (giữ lại cấu trúc thư mục)
+# ============================================
+**/uploads/*
+!**/uploads/.gitkeep
+
+# ============================================
+# Test coverage
+# ============================================
+coverage/
+.nyc_output/
+*.lcov
+
+# ============================================
+# Temporary files
+# ============================================
+tmp/
+temp/
+*.tmp
+
+# ============================================
+# OS files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================================
+# Package manager locks (optional - uncomment if needed)
+# ============================================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
