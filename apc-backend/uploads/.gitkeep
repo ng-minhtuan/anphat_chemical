@@ -1,0 +1,5 @@
+# Tạo file .gitkeep trong mỗi thư mục uploads
+touch uploads/products/.gitkeep
+touch uploads/news/.gitkeep
+touch uploads/employees/.gitkeep
+touch uploads/videos/.gitkeep
