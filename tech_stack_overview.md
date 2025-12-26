@@ -7647,9 +7647,9 @@ const settings = await api.get('/api/public/settings');
 ### 15.1 Development Checklist
 
 **Backend:**
-- [ ] Setup NestJS project structure
-- [ ] Configure database connection
-- [ ] Create entities
+- [x] Setup NestJS project structure
+- [x] Configure database connection
+- [x] Create entities
 - [ ] Implement authentication
 - [ ] Create CRUD modules
 - [ ] Setup file upload
