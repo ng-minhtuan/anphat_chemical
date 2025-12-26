@@ -131,10 +131,10 @@ Xem chi tiết trong file `.env.example` của từng phần.
 ┌─────────────────────────────────────────────────┐
 │         Client Layer (Browser/Mobile)           │
 │    Next.js 14 + TypeScript + Tailwind CSS       │
-│  ┌──────────────┐      ┌──────────────┐        │
-│  │ apc-admin    │      │ apc-public   │        │
-│  │ Port: 3001   │      │ Port: 3002   │        │
-│  └──────┬───────┘      └──────┬───────┘        │
+│  ┌──────────────┐       ┌──────────────┐        │
+│  │ apc-admin    │       │ apc-public   │        │
+│  │ Port: 3001   │       │ Port: 3002   │        │
+│  └──────┬───────┘       └──────┬───────┘        │
 └─────────┼──────────────────────┼────────────────┘
           │                      │
           │    HTTPS/REST API    │
@@ -144,7 +144,7 @@ Xem chi tiết trong file `.env.example` của từng phần.
 │      Backend Layer (NestJS + TypeScript)        │
 │  Controllers → Services → Repositories          │
 │  Port: 3000                                     │
-└────────────────────┬───────────────────────────┘
+└────────────────────┬────────────────────────────┘
                      │
 ┌────────────────────▼────────────────────────────┐
 │     Data Layer (PostgreSQL + Redis Cache)       │
